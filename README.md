@@ -76,9 +76,13 @@ Test by going to http://localhost:3003/tim-gunn
 
 **Thought questions**
 - What characters are allowed in a URL?
+  Answer: Pretty much anything, but spaces.
 - What happens if you try to create a URL `/tim gunn`
+  Answer: Wont work since it has a space.
 - Is there a difference between `/timgunn` and `/TimGunn` and `/tim/gunn`?
+  Answer: No difference between the first two, but the last one is different than the others.
 - If you have a phrase like `Here's looking at you, kid`, how do you deal with the `'` in `Here's`?
+  Answer: I'd put a \' 
 
 <hr />
 
@@ -130,6 +134,7 @@ What do you see in your browser?
  - Both messages?
  - One message (which one)
  - An error?
+Answer: One message on web browser, but error does appear on terminal.
 
 Check terminal:
 
@@ -141,6 +146,7 @@ Check terminal:
 </details>
 
 What does this error message mean?
+Answer: I can only send one response per request.
 
 <details><summary>Hint/Reminder</summary>
 
